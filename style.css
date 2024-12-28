@@ -1,0 +1,57 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f8ff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.block {
+  background-color: #e6f7ff;
+  padding: 20px;
+  border: 2px solid #0099cc;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease;
+}
+
+.block:hover {
+  transform: scale(1.05);
+}
+
+.name {
+  color: #004d80;
+  font-size: 24px;
+  margin: 0;
+}
+
+.birthdate {
+  color: #006699;
+  font-size: 18px;
+  margin: 10px 0;
+}
+
+.message {
+  color: #333;
+  font-size: 16px;
+  font-style: italic;
+  margin: 10px 0;
+  opacity: 1;
+  transition: opacity 0.3s ease;
+}
+
+button {
+  padding: 10px 20px;
+  color: white;
+  background-color: #0099cc;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #007acc;
+}
